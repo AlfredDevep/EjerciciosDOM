@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora de Descuento en Viajes Turísticos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--
+
+        EJERCICIO 6: Crear una Función para calcular el descuento en viajes turísticos tomando 
+        en cuenta lo siguiente:  
+        Si el usuario introduce como origen la ciudad de Palma y como destino La costa del Sol, el 
+        descuento será de 5%, si el destino es Panchimalco el descuento será del 10% y si el destino 
+        es Puerto el Triunfo el descuento será del 15%.
+
+    -->
+
+    
+  
+
+    <h2>Calculadora de Descuento en Viajes Turísticos</h2>
+
+    <form id="formulario">
+      <label for="origen">Origen:</label>
+      <select id="origen" name="origen">
+        <option value="Palma">Palma</option>
+        <!-- Agrega más opciones para otras ciudades de origen si es necesario -->
+      </select><br><br>
+      
+      <label for="destino">Destino:</label>
+      <select id="destino" name="destino">
+        <option value="La costa del Sol">La costa del Sol</option>
+        <option value="Panchimalco">Panchimalco</option>
+        <option value="Puerto el Triunfo">Puerto el Triunfo</option>
+        <!-- Agrega más opciones para otros destinos si es necesario -->
+      </select><br><br>
+      
+      <label for="precio">Precio del viaje:</label>
+      <input type="text" id="precio" name="precio"><br><br>
+      
+      <button type="button" onclick="calcularDescuento()">Calcular Descuento</button>
+    </form>
+    
+    <p id="resultado"></p>
+    <script src="script.js"></script>
+
+</body>
+</html>

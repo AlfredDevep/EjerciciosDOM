@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#resultados {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+#resultados p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+#resultados p:first-child {
+    margin-top: 0;
+}
+
+#resultados p:last-child {
+    margin-bottom: 0;
+}
